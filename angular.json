@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "methodRaidTools:build:production"
+              "browserTarget": "method-raid-tools:build:production"
             },
             "development": {
-              "browserTarget": "methodRaidTools:build:development"
+              "browserTarget": "method-raid-tools:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -25,11 +25,11 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/methodRaidTools'),
+      dir: require('path').join(__dirname, './coverage/method-raid-tools'),
       subdir: '.',
       reporters: [
-        { type: 'html' },
-        { type: 'text-summary' }
+        {type: 'html'},
+        {type: 'text-summary'}
       ]
     },
     reporters: ['progress', 'kjhtml'],
